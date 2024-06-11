@@ -1,11 +1,6 @@
 import './App.css';
 import { NavBar } from './components/NavBar/NavBar';
-
-function Header({children}) {
-  return(
-    <h2 class="cs-title">{children}</h2>
-  );
-}
+import { Header } from './components/Header/Header';
 
 function App() {
   return (
