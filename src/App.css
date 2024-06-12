@@ -281,25 +281,4 @@
     height: clamp(12.5rem, 23vw, 20rem);
   }
 }
-/* Dark Mode */
-@media only screen and (min-width: 0rem) {
-  body.dark-mode #collection-1602 .cs-title,
-  body.dark-mode #collection-1602 .cs-button,
-  body.dark-mode #collection-1602 .cs-category,
-  body.dark-mode #collection-1602 .cs-was-price,
-  body.dark-mode #collection-1602 .cs-name {
-    color: var(--bodyTextColorWhite);
-  }
-  body.dark-mode #collection-1602 .cs-active {
-    color: var(--primary);
-  }
-  body.dark-mode #collection-1602 .cs-category,
-  body.dark-mode #collection-1602 .cs-was-price {
-    opacity: 0.8;
-  }
-  body.dark-mode #collection-1602 .cs-item {
-    background-color: var(--medium);
-    border-color: var(--accent);
-  }
-}
                                 
